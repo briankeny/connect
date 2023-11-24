@@ -1,12 +1,13 @@
 import React from 'react';
 import MaterialIcons  from 'react-native-vector-icons/MaterialIcons';
 import { View } from 'react-native';
+
 interface CheckmarkProps {
-  username?: string;
-  is_staff?: boolean;
-  account?: string;
-  size?: number;
-  color?: string;
+  username ?: string;
+  is_staff ?: boolean;
+  account ?: string;
+  size ?: number;
+  color ?: string;
   checkStyles?: { [key: string]: any };
 }
 
