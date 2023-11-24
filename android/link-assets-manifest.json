@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/adaptive-icon.png",
+      "sha1": "087dc14735bd9626f42207cac7757246114bbef7"
+    },
+    {
+      "path": "src/assets/favicon.png",
+      "sha1": "087dc14735bd9626f42207cac7757246114bbef7"
+    },
+    {
+      "path": "src/assets/icon.png",
+      "sha1": "087dc14735bd9626f42207cac7757246114bbef7"
+    },
+    {
+      "path": "src/assets/images/logo.png",
+      "sha1": "087dc14735bd9626f42207cac7757246114bbef7"
+    },
+    {
+      "path": "src/assets/images/notfound.png",
+      "sha1": "d1faa24464ab8efc70835e236e00df041ab2506d"
+    },
+    {
+      "path": "src/assets/splash.png",
+      "sha1": "5a812870dca6d755c4838e30714b8b93561c806b"
+    }
+  ]
+}
