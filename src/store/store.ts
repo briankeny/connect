@@ -10,17 +10,9 @@ const rootReducer = combineReducers({
   theme: themeReducer,
 });
 
-// export const store = configureStore({
-//     reducer: rootReducer
-// })
-
-// Configure Redux Persist options
 const persistConfig = {
   key: "root",
   storage: AsyncStorage,
-  // Add any other options you need, such as blacklist or whitelist
-  // blacklist: ["blacklistedReducer"],
-  // whitelist: ["whitelistedReducer"],
 };
 
 // Create a persisted reducer
@@ -42,12 +34,3 @@ export const useAppDispatch: () => AppDispatch = useDispatch //
 
 // Create a persistor object to persist the store
 export const persistor = persistStore(store);
-
-
-
-
-
-
-
-
-

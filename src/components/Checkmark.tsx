@@ -1,7 +1,6 @@
 import React from 'react';
 import MaterialIcons  from 'react-native-vector-icons/MaterialIcons';
 import { View } from 'react-native';
-
 interface CheckmarkProps {
   username?: string;
   is_staff?: boolean;
@@ -19,7 +18,7 @@ const Checkmark: React.FC<CheckmarkProps> = ({
     color="#222",
     checkStyles})=> {
     const tier1 = ["monzero"];
-    const tier2 = ["ian","faith","sambu","fei","faith","fiath"];
+    const tier2 = ["ian","faith","sambu","fei","faith"];
     const tier3 = ["debby","mithibe","rose"];
     const tier4 = ["zoovier"];
     const tier5 = ["benson","brian","fred"];

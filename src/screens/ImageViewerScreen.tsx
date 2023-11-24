@@ -5,27 +5,18 @@ import { globalstyles } from '../globalstyles/styles';
 import { baseurl } from '../store/api';
 import { useSelector } from 'react-redux';
 
-interface User {
-  first_name: string;
-  last_name: string;
-  username: string;
-  profile_picture: string;
+interface viewerProps {
+  image:string;
+  user:{
+  first_name: string,
+  last_name: string,
+  username: string,
+  profile_picture: string
+};
 }
 
-interface RouteParams {
-  params: {
-    image: string;
-    user: User;
-  };
-}
-
-interface ImageViewerProps {
-  navigation: any;
-  route: RouteParams;
-}
-
-const ImageViewerScreen: React.FC<ImageViewerProps> = ({ navigation, route }) => {
-  const { image, user } = route.params;
+const ImageViewerScreen: React.FC<{ navigation: any, route: any }> = ({ navigation, route }) =>{
+  const { image, user}:viewerProps = route.params;
   const { theme, isNightMode } = useSelector((state:any) => state.theme);
 
   function goBack() {

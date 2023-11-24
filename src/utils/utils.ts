@@ -276,8 +276,7 @@ export async function submitPost(data:any) {
 export async function searchPersons(searchTerm="",search=""){
   try {
       const token = await get("accessToken");
-      const response = await fetch(`${baseurl}/Users/?searchTerm=${searchTerm}&search=${search}`, {
-        method: "GET",
+      const response = await axios.get(`${baseurl}/Users/?searchTerm=${searchTerm}&search=${search}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         
@@ -295,8 +294,7 @@ export async function searchPersons(searchTerm="",search=""){
 export async function searchUserPosts(searchTerm:string){
   try {
       const tkn = await get("accessToken");
-      const response = await fetch(`${baseurl}/posts/?search_Term=${searchTerm}`,{
-        method: "GET",
+      const response = await axios.get(`${baseurl}/posts/?search_Term=${searchTerm}`,{
         headers: {
           Authorization: `Bearer ${tkn}`,
         }

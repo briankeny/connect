@@ -81,7 +81,7 @@ const LoginScreen : React.FC =()=> {
           <View style={[globalstyles.logoContainer, { alignSelf: "center" }]}>
             <Image
               style={globalstyles.logo}
-              source={require("../../../../assets/images/logo.png")}
+              source={require("../assets/images/logo.png")}
             />
           </View>
 

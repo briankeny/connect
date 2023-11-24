@@ -1,6 +1,7 @@
 import {useEffect, useState} from 'react';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import {baseurl} from '../baseurl/baseurl';
+import {baseurl} from '../store/api';
+import { get } from '../store/storage';
+import axios from 'axios';
 
 const fetchUsers = () => {
     const [employeeList, setEmployeeList] =useState([]);
@@ -8,23 +9,21 @@ const fetchUsers = () => {
     const [fetchingError, setFetchingError] = useState("");
 
     async function fetchData () {
-        const tkn = await AsyncStorage.getItem("accessToken");
-        const token = await JSON.parse(tkn);
+        const tkn = await get("accessToken");
         try {
-            const response = await fetch(`${baseurl}/Users/`,{
-                method:'GET',
+            const response = await axios.get(`${baseurl}/Users/`,{
                 headers: {
-                    Authorization: `Bearer ${token}`,
+                    Authorization: `Bearer ${tkn}`,
                   },
             });
             if (response.status == 200){
-                const data = await response.json();
+                const data = await response.data;
                 setEmployeeList(data);
             }
             
         }
-        catch(error){
-         setFetchingError("An error occured while trying to fetch departments");
+        catch(error:any){
+         setFetchingError(error.message);
         
         }
         finally{

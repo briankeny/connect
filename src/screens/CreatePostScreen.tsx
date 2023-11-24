@@ -18,8 +18,10 @@ const CreatePostScreen: React.FC = () => {
   const [content, setContent] = useState('');
   const [openCateg, setOpenCateg] = useState(false);
   const [category, setCategory] = useState('post');
+  
   const [image, setImage] = useState<any[]>([]);
   const [video, setVideo] = useState<any>(null);
+
   const [openModal, setOpenModal] = useState(false);
   const [modalStatus, setModalStatus] = useState('');
   const [modalHeader, setModalHeader] = useState('');
@@ -33,6 +35,7 @@ const CreatePostScreen: React.FC = () => {
       if (video) {
         dataToSubm.append(`video`, video);
       }
+      
       setModalHeader('A moment Please Wait!');
       setModalContent(`Submitting ${category}...`);
       setOpenModal(true);

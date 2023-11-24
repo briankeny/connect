@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {ScrollView, SafeAreaView, Text, View, Image, Dimensions } from 'react-native';
 import { globalstyles } from '../globalstyles/styles';
 import { useSelector } from 'react-redux';
@@ -6,11 +6,8 @@ import { baseurl } from '../store/api';
 import Checkmark from '../components/Checkmark';
 
 interface PostProps {
-  navigation: any;
-  route: {
-    params: {
-      post: {
-        owner: {
+      post_id:number;
+      owner: {
           profile_picture: string;
           first_name: string;
           last_name: string;
@@ -20,19 +17,12 @@ interface PostProps {
         images?: string[];
         content: string;
         video?: string;
-      };
-    };
-  };
-}
+};
 
-const PostScreen: React.FC<PostProps> = ({ navigation, route }) => {
-  const { post } = route.params;
-  const displayvideo = React.useRef(null);
-  const [status, setStatus] = React.useState({});
-  const [post_images, setPostImg] = useState<string[]>([]);
+const PostScreen: React.FC<{ navigation: any, route: any }> = ({ navigation, route })  => {
+  const { post }:{post:PostProps} = route.params;
   const { theme, isNightMode } = useSelector((state:any) => state.theme);
 
-  
 
   return (
     <SafeAreaView style={[globalstyles.safeArea, theme && { backgroundColor: theme.backgroundColor }]}>

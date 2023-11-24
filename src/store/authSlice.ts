@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
-import { api } from "./api"
+import { baseurl } from "./api"
 import { get} from "./storage"
 import axios from "axios"
 
@@ -57,7 +57,7 @@ export const  login = createAsyncThunk(
   'fetchuserdata',
   async () => {
     const token = await get('accessToken');
-    const response = await  axios.get(`${api}/profile`, {
+    const response = await  axios.get(`${baseurl}/profile`, {
       headers: {Authorization: `Bearer ${token}`},
     });
   return response.data;
