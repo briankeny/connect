@@ -52,7 +52,7 @@ const LoginScreen : React.FC =()=> {
           await save ('refreshToken',token.refresh) 
           await save("persistlogin",true)
           logins && await save("logins",validated)
-          await (login())
+          await dispatch(login())
         } 
    
       } catch (error:any) {

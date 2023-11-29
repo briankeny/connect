@@ -1,17 +1,17 @@
 import { useEffect } from "react";
+import SplashScreen from 'react-native-splash-screen';
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeDrawer from "../navigators/HomeDrawer";
 import LoginScreen from "../screens/LoginScreen";
 import { useSelector } from "react-redux";
-// import SplashScreen from 'react-native-splash-screen';
 
 const Stack = createNativeStackNavigator();
 const Router = () => {
   const { authentication } =  useSelector((state:any) => state.auth) 
-  // useEffect(()=>{
-  //   SplashScreen.hide()
-  // },[])
+  useEffect(()=>{
+    SplashScreen.hide()
+  },[])
    return (
     <NavigationContainer>
       <Stack.Navigator>
@@ -26,3 +26,8 @@ const Router = () => {
 };
 
 export default Router;
+
+
+
+
+

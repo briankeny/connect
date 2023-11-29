@@ -51,21 +51,19 @@ const PeopleScreen: React.FC<{ navigation: any }> = ({ navigation }) => {
   ) {
     try {
       const response = await searchPersons(searchTerm, search);
-      if (response !== undefined && response.ok) {
-        const data: Employee[] = await response.json();
+      if (response.status == 200) {
+        const data: Employee[] = await response.data;
         setEmployees(data);
-      } else {
-        if (response && response !== undefined) {
-          const data: any = await response.json();
-          if (data) {
-            const error = createError(data);
-            throw new Error(error);
-          } else {
-            throw new Error(
-              "A Network Error Occurred While Trying To Submit Data"
-            );
-          }
-        }
+      } 
+      if (response.status == 400) {
+        throw new Error(
+          "A Network Error Occurred "
+        );
+      }
+      else{
+        throw new Error(
+          "Please Try Again Later"
+        );
       }
     } catch (error:any) {
       setFetchingError(error.message);
@@ -80,22 +78,11 @@ const PeopleScreen: React.FC<{ navigation: any }> = ({ navigation }) => {
   ) {
     try {
       const response = await searchPersons(searchTerm, search);
-      if (response !== undefined && response.ok) {
-        const data: Employee[] = await response.json();
+      if (response.status == 200) {
+        const data: Employee[] = await response.data;
         setSearchData(data);
-      } else {
-        if (response && response !== undefined) {
-          const data: any = await response.json();
-          if (data) {
-            const error = createError(data);
-            throw new Error(error);
-          } else {
-            throw new Error(
-              "A Network Error Occurred While Trying To Submit Data"
-            );
-          }
-        }
       }
+      
     } catch (error:any) {
       setFetchingError(error.message);
     } finally {

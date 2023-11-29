@@ -2,11 +2,9 @@ package com.connect;
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
-// import com.facebook.react.ReactInstanceManager;
-// import com.facebook.react.ReactRootView;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
-// import com.swmansion.gesturehandler.react.RNGestureHandlerEnabledRootView;
+import org.devio.rn.splashscreen.SplashScreen;
 
 public class MainActivity extends ReactActivity {
 
@@ -22,7 +20,8 @@ public class MainActivity extends ReactActivity {
   //react-native-screens override
   @Override
   protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(null);
+       SplashScreen.show(this); 
+       super.onCreate(savedInstanceState);
   }
 
   /**
@@ -39,10 +38,7 @@ public class MainActivity extends ReactActivity {
         DefaultNewArchitectureEntryPoint.getFabricEnabled());
   }
 
-  //  @Override
-  // protected ReactRootView createRootView() {
-  //   return new RNGestureHandlerEnabledRootView(this);
-  // }
+  
 }
 
 

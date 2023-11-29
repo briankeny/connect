@@ -67,11 +67,11 @@ export function removeSpace(item:string) {
 //Validate User login input
 export function validateLoginInput(psn:any, passw:any) {
     const pass = passw && removeSpace(passw).length > 6
-    const p = parseInt(psn) && removeSpace(psn).length > 7
+    const p = psn && removeSpace(psn).length > 2
     if (pass && p) {
-        const public_service_no  = parseInt(psn);
+        const  username  = removeSpace(psn);
         const password = removeSpace(passw)
-      return {public_service_no:public_service_no, password:password}
+      return {username:username, password:password}
     } else {
       return false;
     }

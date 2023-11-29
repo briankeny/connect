@@ -1,142 +1,146 @@
 [
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-hdpi/ic_launcher_monochrome.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/drawable_notfound.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/drawable/notfound.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/drawable-xhdpi_launch_screen.png.flat",
-        "source": "com.connect.app-main-39:/drawable-xhdpi/launch_screen.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/drawable_notfound.png.flat",
-        "source": "com.connect.app-main-39:/drawable/notfound.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-mdpi/ic_launcher_monochrome.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/drawable_rn_edit_text_material.xml.flat",
-        "source": "com.connect.app-main-39:/drawable/rn_edit_text_material.xml"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/drawable-hdpi_launch_screen.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/drawable-hdpi/launch_screen.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/drawable-xxhdpi_launch_screen.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/drawable-xxhdpi/launch_screen.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xhdpi/ic_launcher_monochrome.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/drawable-mdpi_launch_screen.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/drawable-mdpi/launch_screen.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/drawable-xhdpi_launch_screen.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/drawable-xhdpi/launch_screen.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher_background.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xhdpi/ic_launcher_background.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xhdpi/ic_launcher_monochrome.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/drawable_logo.png.flat",
-        "source": "com.connect.app-main-39:/drawable/logo.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/drawable-hdpi_launch_screen.png.flat",
-        "source": "com.connect.app-main-39:/drawable-hdpi/launch_screen.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.connect.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/drawable_rn_edit_text_material.xml.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher_background.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-hdpi/ic_launcher_background.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher_background.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-mdpi/ic_launcher_background.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/layout_launch_screen.xml.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/layout/launch_screen.xml"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/drawable-xxhdpi_launch_screen.png.flat",
-        "source": "com.connect.app-main-39:/drawable-xxhdpi/launch_screen.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-hdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/drawable-mdpi_launch_screen.png.flat",
-        "source": "com.connect.app-main-39:/drawable-mdpi/launch_screen.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-mdpi/ic_launcher_monochrome.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher_background.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/drawable-xxxhdpi_launch_screen.png.flat",
-        "source": "com.connect.app-main-39:/drawable-xxxhdpi/launch_screen.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/drawable-xxxhdpi_launch_screen.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/drawable-xxxhdpi/launch_screen.png"
+    },
+    {
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "com.connect.app-merged_res-37:/layout_launch_screen.xml.flat",
         "source": "com.connect.app-main-39:/layout/launch_screen.xml"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-hdpi/ic_launcher_monochrome.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_background.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher_background.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/drawable_logo.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/drawable/logo.png"
     },
     {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
-        "source": "com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+        "merged": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/monzero/.gradle/daemon/8.0.1/com.connect.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
     }
 ]

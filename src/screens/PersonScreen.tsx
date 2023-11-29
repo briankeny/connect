@@ -54,8 +54,8 @@ const Person: React.FC<{ navigation: any, route: any }> = ({ navigation, route }
   async function fetchData(searchTerm: string) {
     try {
       const response = await searchUserPosts(searchTerm);
-      if (response !== undefined && response.ok) {
-        const data: UserPost[] = await response.json();
+      if (response.status == 200) {
+        const data: UserPost[] = await response.data;
         setUserPost(data);
       } else {
         setUserPost([]);

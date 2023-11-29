@@ -14,6 +14,7 @@ MERGED from [:react-native-image-picker] /home/monzero/Desktop/connect/node_modu
 MERGED from [:react-native-reanimated] /home/monzero/Desktop/connect/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-safe-area-context] /home/monzero/Desktop/connect/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-screens] /home/monzero/Desktop/connect/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-splash-screen] /home/monzero/Desktop/connect/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-vector-icons] /home/monzero/Desktop/connect/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.72.7] /home/monzero/.gradle/caches/transforms-3/f5b6369cea5fc99dae80dd8391bca788/transformed/jetified-react-android-0.72.7-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:hermes-android:0.72.7] /home/monzero/.gradle/caches/transforms-3/fa7dc7ca1c3bf05f8e6dbabdb3bb74dc/transformed/jetified-hermes-android-0.72.7-debug/AndroidManifest.xml:2:1-7:12
@@ -201,6 +202,8 @@ MERGED from [:react-native-safe-area-context] /home/monzero/Desktop/connect/node
 MERGED from [:react-native-safe-area-context] /home/monzero/Desktop/connect/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] /home/monzero/Desktop/connect/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] /home/monzero/Desktop/connect/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-splash-screen] /home/monzero/Desktop/connect/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-splash-screen] /home/monzero/Desktop/connect/node_modules/react-native-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-vector-icons] /home/monzero/Desktop/connect/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-vector-icons] /home/monzero/Desktop/connect/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.react:react-android:0.72.7] /home/monzero/.gradle/caches/transforms-3/f5b6369cea5fc99dae80dd8391bca788/transformed/jetified-react-android-0.72.7-debug/AndroidManifest.xml:5:5-44

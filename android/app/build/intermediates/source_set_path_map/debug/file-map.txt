@@ -44,4 +44,5 @@ com.connect.app-packaged_res-42 /home/monzero/Desktop/connect/node_modules/react
 com.connect.app-packaged_res-43 /home/monzero/Desktop/connect/node_modules/react-native-reanimated/android/build/intermediates/packaged_res/debug
 com.connect.app-packaged_res-44 /home/monzero/Desktop/connect/node_modules/react-native-safe-area-context/android/build/intermediates/packaged_res/debug
 com.connect.app-packaged_res-45 /home/monzero/Desktop/connect/node_modules/react-native-screens/android/build/intermediates/packaged_res/debug
-com.connect.app-packaged_res-46 /home/monzero/Desktop/connect/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug
+com.connect.app-packaged_res-46 /home/monzero/Desktop/connect/node_modules/react-native-splash-screen/android/build/intermediates/packaged_res/debug
+com.connect.app-packaged_res-47 /home/monzero/Desktop/connect/node_modules/react-native-vector-icons/android/build/intermediates/packaged_res/debug

@@ -250,12 +250,12 @@ export const globalstyles = StyleSheet.create({
         alignSelf:'center'
       },
       logo: {
-        borderRadius:50,
+        borderRadius:40,
         width:80,
         height:80
       },
       logoContainer:{
-        paddingVertical:30
+        marginVertical:30
       },
       link:{
         color:'green',
