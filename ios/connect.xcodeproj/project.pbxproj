@@ -14,12 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-connect-connectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-connect-connectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		904DE75853F44B38BD438E8B /* favicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1ACCB1ED88224C0B8FDFFD10 /* favicon.png */; };
-		E1ADD1C6EA174A8BAF1ABDDE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83779F8D9E6D45609201CCE0 /* icon.png */; };
-		D82C2DEA7F96419B84AA1A5E /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F429FEE3C024284A05ADD33 /* logo.png */; };
-		41E3E3A8D2B64AF7957CB145 /* notfound.png in Resources */ = {isa = PBXBuildFile; fileRef = CFED28419ABC4CD2B9C9708D /* notfound.png */; };
-		EB9AC3A692D747BE98D00C02 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = DEBA1D3DA041417F9A1D628F /* splash.png */; };
-		E07C1D87D760461DA862F06B /* adaptive_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 238C4CAE272542C2B591EEFB /* adaptive_icon.png */; };
+		3A5B4436753F478DB6AFCA2F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A38772494CB44962BD84FA11 /* logo.png */; };
+		FA902D5883DF437E9B875501 /* notfound.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D16297E1EF045379559820E /* notfound.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,12 +46,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = connect/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-connect-connectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-connect-connectTests.release.xcconfig"; path = "Target Support Files/Pods-connect-connectTests/Pods-connect-connectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		1ACCB1ED88224C0B8FDFFD10 /* favicon.png */ = {isa = PBXFileReference; name = "favicon.png"; path = "../src/assets/favicon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		83779F8D9E6D45609201CCE0 /* icon.png */ = {isa = PBXFileReference; name = "icon.png"; path = "../src/assets/icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4F429FEE3C024284A05ADD33 /* logo.png */ = {isa = PBXFileReference; name = "logo.png"; path = "../src/assets/images/logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		CFED28419ABC4CD2B9C9708D /* notfound.png */ = {isa = PBXFileReference; name = "notfound.png"; path = "../src/assets/images/notfound.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DEBA1D3DA041417F9A1D628F /* splash.png */ = {isa = PBXFileReference; name = "splash.png"; path = "../src/assets/splash.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		238C4CAE272542C2B591EEFB /* adaptive_icon.png */ = {isa = PBXFileReference; name = "adaptive_icon.png"; path = "../src/assets/adaptive_icon.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A38772494CB44962BD84FA11 /* logo.png */ = {isa = PBXFileReference; name = "logo.png"; path = "../src/assets/images/logo.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D16297E1EF045379559820E /* notfound.png */ = {isa = PBXFileReference; name = "notfound.png"; path = "../src/assets/images/notfound.png"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +126,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				1AB65C456B1741008D43473B /* Resources */,
+				80A62CDAC87F4ADB93A9E9A6 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -161,15 +153,11 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		1AB65C456B1741008D43473B /* Resources */ = {
+		80A62CDAC87F4ADB93A9E9A6 /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				1ACCB1ED88224C0B8FDFFD10 /* favicon.png */,
-				83779F8D9E6D45609201CCE0 /* icon.png */,
-				4F429FEE3C024284A05ADD33 /* logo.png */,
-				CFED28419ABC4CD2B9C9708D /* notfound.png */,
-				DEBA1D3DA041417F9A1D628F /* splash.png */,
-				238C4CAE272542C2B591EEFB /* adaptive_icon.png */,
+				A38772494CB44962BD84FA11 /* logo.png */,
+				9D16297E1EF045379559820E /* notfound.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -271,12 +259,8 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				904DE75853F44B38BD438E8B /* favicon.png in Resources */,
-				E1ADD1C6EA174A8BAF1ABDDE /* icon.png in Resources */,
-				D82C2DEA7F96419B84AA1A5E /* logo.png in Resources */,
-				41E3E3A8D2B64AF7957CB145 /* notfound.png in Resources */,
-				EB9AC3A692D747BE98D00C02 /* splash.png in Resources */,
-				E07C1D87D760461DA862F06B /* adaptive_icon.png in Resources */,
+				3A5B4436753F478DB6AFCA2F /* logo.png in Resources */,
+				FA902D5883DF437E9B875501 /* notfound.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

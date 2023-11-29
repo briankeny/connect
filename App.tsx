@@ -1,6 +1,5 @@
-import 'react-native-gesture-handler'
 import Router from './src/routes/Router';
-import { Provider} from 'react-redux'
+import { Provider} from 'react-redux';
 import { store } from './src/store/store';
 
 export default function App() {

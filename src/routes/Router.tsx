@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import HomeDrawer from "../navigators/HomeDrawer";
@@ -7,7 +7,7 @@ import { useSelector } from "react-redux";
 // import SplashScreen from 'react-native-splash-screen';
 
 const Stack = createNativeStackNavigator();
-const Router:React.FC = () => {
+const Router = () => {
   const { authentication } =  useSelector((state:any) => state.auth) 
   // useEffect(()=>{
   //   SplashScreen.hide()
